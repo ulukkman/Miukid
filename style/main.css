@@ -11,6 +11,41 @@ body {
   display: flex;
 }
 
+.sections-title {
+  font-family: 'Poppins', sans-serif;
+  color: #4c4b6c;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.view-products {
+  font-size: 14px;
+  margin-right: 140px;
+  position: relative;
+  padding-top: 15px;
+  display: inline-block;
+  line-height: 1;
+}
+.view-products > .fa-angle-right {
+  position: absolute;
+  top: 50%;
+  right: -22px;
+  font-size: 14px;
+  background: #4c4b6c;
+  border-radius: 50%;
+  color: #fff;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.text-a-r {
+  text-align: right;
+}
+
 .circle {
   border-radius: 50%;
   background-color: #f4f4f4;
