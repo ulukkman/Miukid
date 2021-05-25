@@ -41,3 +41,67 @@ a {
   width: 100%;
   padding: 0 15px;
 }
+
+/* ================================ */
+.header {
+  margin-bottom: 30px;
+}
+.header__top {
+  background-color: #F7F7F7;
+}
+.header__top-nav {
+  display: flex;
+  align-items: baseline;
+  color: #4E4B64;
+  padding-bottom: 10px;
+}
+
+.sms-default {
+  margin-right: 99px;
+}
+.sms-default .fa-microphone {
+  padding-right: 15px;
+  transition: transform .25s ease;
+}
+.sms-default:hover > .fa-microphone {
+  transform: scale(1.3);
+}
+
+.gift {
+  position: relative;
+}
+.gift::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 130%;
+  background: #DDDDDD;
+  top: 50%;
+  left: -20px;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.gift .fa-gift {
+  padding-right: 5px;
+  font-size: 20px;
+  transition: transform .25s ease;
+}
+.gift .count {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  top: -9px;
+  left: 8px;
+  background-color: #E03659;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  z-index: 2;
+}
+.gift:hover .fa-gift {
+  transform: scale(1.2);
+}
