@@ -218,3 +218,43 @@ a {
 .questions .mark {
   color: #7cd0f5;
 }
+
+/* ======Main-menu ============= */
+
+.main-menu > ul {
+  display: flex;
+  padding-left: 4px;
+  padding-top: 2px;
+}
+.main-menu__item {
+  margin-right: 7px;
+  position: relative;
+}
+.main-menu ul .main-menu__item:last-child {
+  margin: 0;
+}
+.main-menu__link {
+  padding: 7px 25px 9px 24px;
+  display: inline-flex;
+  letter-spacing: 1.6px;
+  font-weight: 600;
+  border-radius: 20px;
+  color: #4c4b6c;
+  position: relative;
+  transition: background .25s, color .25s ease;
+}
+.main-menu__link.active {
+  background-color: #7cd0f5;
+  color: #fff;
+}
+.main-menu__link:hover {
+  background-color: #7cd0f5;
+  color: #fff;
+}
+.main-menu__link > .fa-angle-down {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
