@@ -105,3 +105,62 @@ a {
 .gift:hover .fa-gift {
   transform: scale(1.2);
 }
+
+/* =========== */
+.select-box {
+  align-items: baseline;
+  justify-content: flex-end;
+  padding-top: 14px;
+}
+.select-lang {
+  padding-right: 17px;
+}
+.select-currency,
+.select-lang {
+  align-items: baseline;
+}
+
+.select-currency .fa-money-bill-alt,
+.select-lang .fa-language {
+  padding-right: 10px;
+}
+
+.select-currency select,
+.select-lang select {
+  font-size: 13px;
+  border: none;
+  outline: none;
+  padding-left: 0;
+  width: 57px;
+  font-weight: 600;
+}
+.select-currency {
+  position: relative;
+}
+.select-currency::before,
+.select-currency::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 80%;
+  background: #DDDDDD;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.select-currency::before {
+  left: -10px;
+}
+.select-currency::after {
+  right: -10px;
+}
+
+.sign-registr {
+  padding-left: 25px;
+  text-decoration: underline;
+  transition: color .25s ease;
+}
+.sign-registr:hover {
+  color: #dd2a2a;
+}
