@@ -164,3 +164,57 @@ a {
 .sign-registr:hover {
   color: #dd2a2a;
 }
+
+/* ========mid header========== */
+.header__main {
+  margin-bottom: 38px;
+}
+.header__bottom {
+  padding: 8px 0 7px;
+  background: #F4F4F4;
+}
+
+.header__logo .logo {
+  width: 146px;
+  padding-top: 18px;
+  overflow: hidden;
+}
+.header__logo .logo img {
+  transition: transform .25s ease;
+}
+.header__logo .logo img:hover {
+  transform: scale(1.1);
+}
+
+.hd-item {
+  padding-top: 38px;
+}
+.hd-item-left {
+  float: left;
+  margin-right: 10px;
+}
+.hd-item-right {
+  display: inline-block;
+}
+.hd-item-right p {
+  padding-top: 7px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 0.9;
+}
+.hd-item-right span {
+  font-size: 14px;
+}
+.hd-item-right span .mark {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.schedule .mark {
+  color: #e53556;
+}
+.week-sales .mark {
+  color: #fc3;
+}
+.questions .mark {
+  color: #7cd0f5;
+}
